@@ -16,7 +16,7 @@
 img {
   max-width: 100%;
   display: block;
-  border-radius: 10x;
+  border-radius: 10px;
 }
 
 /* Typography */
@@ -171,6 +171,7 @@ ul, li {
   display: flex;
   justify-content: center;
   max-width: 1020px;
+  
 }
 
 .container {
