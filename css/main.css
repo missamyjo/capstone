@@ -33,6 +33,7 @@
 img {
   max-width: 100%;
   display: block;
+  border-radius: 12px;
 }
 
 /* Typography */
@@ -46,16 +47,38 @@ body {
 h1 {
   font-family: 'Zen Kaku Gothic New', sans-serif;
   color: #4e4e4e;
+  text-transform: uppercase;
   letter-spacing: .2em;
   font-size: 1.3rem;
   line-height: 1.2;
   margin-bottom: 0;
+}
+h1 a:hover {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  color: #ffc907;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+h1 a  {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  color: #4e4e4e;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  margin-bottom: 0;
+  text-decoration: none;
 }
 h2 {
   font-family: "henderson-slab-basic", serif;
   font-weight: 500;
   font-style: normal;
   font-size: 2rem;
+  text-transform: uppercase;
   letter-spacing: 0.1em;
   color: #ee2529;
   line-height: 1.2;
