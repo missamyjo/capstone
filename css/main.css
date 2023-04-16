@@ -185,10 +185,7 @@ ul, li {
 .page-footer {
   padding: 1rem;
 }
-a {
-  color: #313131;
-  text-decoration: none;
-}
+
 .footer-nav {
   padding-top: 2rem;
   border-top: 1px solid #808080;
@@ -215,8 +212,7 @@ a {
   color: #343434;
   text-align: center;
   padding-bottom: .5rem;
+  
 }
-a {
-  color: #313131;
-  text-decoration: none;
-}
+
+
