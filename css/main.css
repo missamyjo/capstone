@@ -17,8 +17,8 @@
   --red: #ee2529;
   --grey: #808080;
   --lightgrey: #d0d0d0;
-  --green: #5f9654;
-  --white: white; 
+  --yellow: #ffc907;
+  --blue: #0099a9; 
   }
   html {
     box-sizing: border-box;
@@ -56,7 +56,7 @@ h3 {
   font-family: 'RobotoSlab', serif;
   font-weight: 100;
   font-size: 1.5rem;
-  color: #ee2529;
+  color: #0099a9;
   text-decoration: none;
   margin-bottom: 0;
 }
