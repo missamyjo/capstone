@@ -1,23 +1,6 @@
  @import url("https://use.typekit.net/rxk8ivn.css");
  @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@900&display=swap');
-@font-face{
-    font-family:RobotoSlab;
-    src:local("RobotoSlab"),
-    url(/fonts/RobotoSlab-Bold.ttf) format("truetype")
-    }
 
-@font-face{
-    font-family:ZenKakuGothicNew-Regular;
-    src:local("ZenKakuGothicNew"),url(/fonts/ZenKakuGothicNew-Medium.ttf) format("truetype");
-    }
-:root {
-  --black: black;
-  --red: #ee2529;
-  --grey: #808080;
-  --lightgrey: #d0d0d0;
-  --yellow: #ffc907;
-  --blue: #0099a9; 
-  }
   html {
     box-sizing: border-box;
     margin: 0;
@@ -137,10 +120,8 @@ h3 a  {
 /* Main Navigation */
 .main-nav {
   background: black;
-  color: white;
   font-size: 16px;
-  font-family: "ZenKakuGothicNew-Regular","Courier New",monospace;
-
+  color: #4e4e4e;
 }
 .menu a:hover {
   color: #ee2529;
@@ -156,7 +137,6 @@ h3 a  {
   display: flex;
   list-style: none;
   justify-content: center; 
-  font-family: "ZenKakuGothicNew-Regular","Courier New",monospace;
   font-size: 16px;
   letter-spacing: .1px;
   padding-top: 1rem;
