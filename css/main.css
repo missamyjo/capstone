@@ -1,20 +1,20 @@
 @font-face{
     font-family:RobotoSlab;
     src:local("RobotoSlab"),
-    url(./RobotoSlab-Bold.c49f216a.TTF) format("truetype")
+    url(/fonts/RobotoSlab-Bold.ttf) format("truetype")
     }
 @font-face{
-    font-family:ZenKakuGothicNew-Black;
-    src:local("ZenKakuGothicNew"),url(./ZenKakuGothicNew-Black.a06c3cc7.TTF) format("truetype")
-    }
+    font-family: ZenKakuGothicNew-Black;
+    src: url(/fonts/ZenKakuGothicNew-Black.ttf) format("truetype");
+  }
 @font-face{
     font-family:ZenKakuGothicNew-Regular;
-    src:local("ZenKakuGothicNew"),url(./ZenKakuGothicNew-Regular.35758980.TTF) format("truetype")
+    src:local("ZenKakuGothicNew"),url(/fonts/ZenKakuGothicNew-Medium.ttf) format("truetype");
     }
 :root {
   --font-serif: 'RobotoSlab', serif;
   --black: black;
-  --orange: #f51e26;
+  --red: #ee2529;
   --grey: #808080;
   --lightgrey: #d0d0d0;
   --green: #5f9654;
@@ -39,36 +39,32 @@ img {
 
 /* Typography */
 body {
-  font-family: 'RobotoSlab', serif;
+  font-family: 'ZenKakuGothicNew-Black', serif;
   color: #4e4e4e;
   font-weight: 200;
   line-height: 1.667;
 }
 h2 {
-  font-family: 'ZenKakuGothicNew-Black', serif;
+  font-family: 'RobotoSlab', serif;
   font-size: 2rem;
   letter-spacing: 0.025em;
-  color: var(--orange);
+  color: #ee2529;
   line-height: 1.2;
   margin-bottom: 0;
 }
 h3 {
-  font-family: 'ZenKakuGothicNew-Black', serif;
+  font-family: 'RobotoSlab', serif;
   font-weight: 100;
   font-size: 1.5rem;
-  color: var(--orange);
+  color: #ee2529;
   text-decoration: none;
   margin-bottom: 0;
 }
 h3 a {
-  font-family: 'ZenKakuGothicNew-Black', serif;
+  font-family: 'RobotoSlab', serif;
   font-weight: 100;
   font-size: 1.5rem;
   color: var(--orange);
-  text-decoration: none;
-}
-h3 a:hover {
-  color: #343434;
   text-decoration: none;
 }
 
@@ -84,8 +80,8 @@ h3 a:hover {
   height: 3px;
   margin-top: 3px;
   padding-top: 3px;
-  border-top: 2px solid #f51e26;
-  border-bottom: 2px solid #f51e26;
+  border-top: 2px solid #ee2529;
+  border-bottom: 2px solid #ee2529;
 }
 .header-logo {
   max-width: 350px;
@@ -102,11 +98,15 @@ h3 a:hover {
   color: white;
   font-size: 16px;
   font-family: "ZenKakuGothicNew-Regular","Courier New",monospace;
+
 }
 .menu a:hover {
-  color: #f51e26;
-  border-bottom: 0.075rem solid #f51e26;
+  color: #ee2529;
+  border-bottom: 0.075rem solid #ee2529;
+  text-decoration: none;
+
 }
+
 .menu a {
   text-decoration: none;
   color: grey;
@@ -173,71 +173,25 @@ ul, li {
 .hero__image a:hover {
   filter: brightness(110%) saturate(120%);  
 }
-.hero__text-right {
-  padding-top: 2rem;
-}
+
 .hero__text-left {
-  padding-top: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 4rem;
   text-align: right;
 }
-.hero__arrow-left {
-  display: block;
-  margin-left: auto;
-  max-width: 40px;
-}
-.hero__arrow-right {
-  display: block;
-  margin-right: auto;
-  max-width: 40px;
-}
-.camp-map a {
-  color: white;
-  background-color: var(--green);
-  padding: 2rem 3.5rem;  
-  text-decoration: none;
-}
-.camp-map a:hover {
-  background-color: #f51e26;
-}
-.box {
-  position: relative;
-  display: inline-block;
-}
-.box .text {
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  text-align: center;
-  top: 40%;
-  width: 45%;
-  padding: .3rem .2rem;  
-}
-.box img {
-  display: block;
-  max-width: 100%;
-  opacity: .7;
-}
-.explore-camp-map a {
-  color: white;
-  background-color: var(--green);
-  padding: .75em 1.5em;
-  text-decoration: none;
-  font-size: 2.5rem;
-}
-.explore-camp-map a:hover {
-  background-color: #f51e26;
-}
+
 
 /* Footer */
 .page-footer {
   padding: 1rem;
 }
-
+a {
+  color: #313131;
+  text-decoration: none;
+}
 .footer-nav {
   padding-top: 2rem;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #808080;
 }
 .social-media {
   list-style: none;
@@ -252,7 +206,7 @@ ul, li {
   color: #343434;
 }
 .social-media a:hover {
-  color: #435993;
+  color: #ffc907;
 }
 .copyright__footer {
   padding: 0 1rem;
@@ -261,4 +215,8 @@ ul, li {
   color: #343434;
   text-align: center;
   padding-bottom: .5rem;
+}
+a {
+  color: #313131;
+  text-decoration: none;
 }
