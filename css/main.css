@@ -148,9 +148,17 @@ ul, li {
 }
 .page-hero__large {
   padding-top: 1.5rem;
+  padding-bottom: 7rem;
   display: flex;
   justify-content: center;
 }
+.page-hero__medium {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  max-width: 1020px;
+}
+
 .container {
   width: 90%;
   max-width: 900px;
