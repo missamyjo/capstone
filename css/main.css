@@ -24,12 +24,12 @@ body {
   font-family: "century-gothic", sans-serif;
   font-weight: 500;
   font-style: normal;
-  color: #4e4e4e;
+  color: #787373;
   line-height: 1.55;
 }
 h1 {
   font-family: 'Zen Kaku Gothic New', sans-serif;
-  color: #4e4e4e;
+  color: #787373;
   text-transform: uppercase;
   letter-spacing: .2em;
   font-size: 1.3rem;
@@ -48,7 +48,7 @@ h1 a:hover {
 }
 h1 a  {
   font-family: 'Zen Kaku Gothic New', sans-serif;
-  color: #4e4e4e;
+  color: #787373;
   text-transform: uppercase;
   letter-spacing: .2em;
   font-size: 1.3rem;
@@ -105,8 +105,8 @@ h3 a  {
   height: 3px;
   margin-top: 12px;
   padding-top: 3.5px;
-  border-top: 1.5px solid #343434;
-  border-bottom: 1.5px solid #343434;
+  border-top: 1.5px solid #787373;
+  border-bottom: 1.5px solid #787373;
 }
 .header-logo {
   max-width: 350px;
@@ -121,7 +121,7 @@ h3 a  {
 .main-nav {
   background: black;
   font-size: 16px;
-  color: #4e4e4e;
+  color: #787373;
 }
 .menu a:hover {
   color: #ee2529;
@@ -130,7 +130,7 @@ h3 a  {
 
 .menu a {
   text-decoration: none;
-  color: #343434;
+  color: #787373;
   margin: .75rem;
 }
 .menu {    
@@ -220,8 +220,8 @@ ul, li {
   height: 3px;
   margin-top: 3.5rem;
   padding-top: 3.5px;
-  border-top: 1.5px solid #343434;
-  border-bottom: 1.5px solid #343434;
+  border-top: 1.5px solid #787373;
+  border-bottom: 1.5px solid #787373;
 }
 
 .social-media {
@@ -235,14 +235,14 @@ ul, li {
 }
 .social-media a {
   padding: 0.5rem;
-  color: #343434;
+  color: #787373;
 }
 .social-media a:hover {
   color: #ffc907;
 }
 .copyright__footer {
   font-size: .8rem;
-  color: #343434;
+  color: #787373;
   text-align: center;
 }
 
