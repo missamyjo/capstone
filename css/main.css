@@ -172,7 +172,7 @@ ul, li {
 }
 .page-hero__large {
   padding-top: 1.5rem;
-  padding-bottom: 7rem;
+  padding-bottom: 8rem;
   display: flex;
   justify-content: center;
 }
@@ -186,7 +186,7 @@ ul, li {
 
 .container {
   width: 90%;
-  max-width: 900px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding-top: .2rem;
@@ -200,10 +200,10 @@ ul, li {
 }
 .hero {
   width: 90%;
-  max-width: 1020px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px 40px 10px;
+  padding: 20px 10px;
   display: flex;
 }
 .hero__image {
@@ -219,6 +219,11 @@ ul, li {
   padding-right: 4rem;
   text-align: right;
 }
+.hero__text-right {
+  padding-left: 2.5rem;
+  text-align: left;
+}
+
 
 
 /* Footer */
