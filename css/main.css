@@ -183,7 +183,21 @@ ul, li {
   max-width: 1020px;
   
 }
-
+a:link {
+  color: #0099a9;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #ffc907;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color:  #ee2529
+  background-color: transparent;
+  text-decoration: none;
+}
 .container {
   width: 90%;
   max-width: 1000px;
