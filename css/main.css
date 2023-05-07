@@ -46,6 +46,7 @@ h1 a:hover {
   margin-bottom: 0;
   text-decoration: none;
 }
+
 h1 a  {
   font-family: 'Zen Kaku Gothic New', sans-serif;
   color: #787373;
@@ -56,6 +57,7 @@ h1 a  {
   margin-bottom: 0;
   text-decoration: none;
 }
+
 h2 {
   font-family: "henderson-slab-basic", serif;
   font-weight: 500;
@@ -103,6 +105,22 @@ h4 {
   line-height: 1.2;
   margin-bottom: 0;
 }
+p a:link {
+  color: #0099a9;
+  background-color: transparent;
+  text-decoration: none;
+}
+p a:visited {
+  color: #ffc907;
+  background-color: transparent;
+  text-decoration: none;
+}
+p a:hover {
+  color:  #ee2529
+  background-color: transparent;
+  text-decoration: none;
+} 
+
 /* Header */
 .header {
   padding-top: 20px;
@@ -183,7 +201,7 @@ ul, li {
   max-width: 1020px;
   
 }
-a:link {
+/* a:link {
   color: #0099a9;
   background-color: transparent;
   text-decoration: none;
@@ -197,7 +215,7 @@ a:hover {
   color:  #ee2529
   background-color: transparent;
   text-decoration: none;
-}
+} */
 .container {
   width: 90%;
   max-width: 1000px;
@@ -224,7 +242,7 @@ a:hover {
   display: flex;
   justify-content: center;
 }
-.hero__image a:hover {
+.hero__image:hover {
   filter: brightness(110%) saturate(120%);  
 }
 
