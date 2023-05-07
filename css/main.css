@@ -125,10 +125,10 @@ blockquote {
 }
 
 blockquote p {
-  padding: 15px;
+  padding: 50px;
   color: black;
   background: #ffc907;
-  border-radius: 5px;
+  border-radius: 100px;
 }
 
 
