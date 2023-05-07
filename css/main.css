@@ -120,6 +120,17 @@ p a:hover {
   background-color: transparent;
   text-decoration: none;
 } 
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+  padding: 15px;
+  color: black;
+  background: #ffc907;
+  border-radius: 5px;
+}
+
 
 /* Header */
 .header {
